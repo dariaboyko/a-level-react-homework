@@ -1,0 +1,71 @@
+.episodes{
+  display: flex;
+  flex-direction:row ;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 40px;
+  margin: 0 auto;
+  max-width: 1180px;
+  
+}
+.episode{
+    text-align: center;
+    max-height: 400px;
+    overflow: scroll;
+    width: 540px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    padding: 5px;
+}
+.episode:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.episode--title{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    color: #000000;
+}
+.episode--date{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    margin: 0 0 10px 0;
+    color: #000000;
+}
+.episode--grid{
+    display: flex;
+    flex-direction: row;
+}
+.episode--grid--image{
+    max-width: 250px;
+    margin: 0 10px 0 0;
+    max-height: 340px;
+}
+.episode--grid--characters{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    margin: 0 0 10px 0;
+    color: #000000;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+.episode--grid--characters__title{
+    font-size: 18px;
+    margin: 0 0 5px 0;
+}
+.character{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+}
+.character img{
+    max-height: 300px;
+    max-width: 300px;
+    margin: 0 auto;
+}
